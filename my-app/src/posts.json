@@ -1,0 +1,20 @@
+[
+  {
+    "judul": "favian sang pembunuh diri sendiri",
+    "genre": "Action seru",
+    "tags": ["favian bundir", "Favian bunuh"],
+    "isFact": true
+  },
+  {
+    "judul": "sammy sang pembunuh",
+    "genre": "Commedy",
+    "tags": ["bunuh", "sammy"],
+    "isFact": false
+  },
+  {
+    "judul": "Azzam penyelamat favian rasyad",
+    "genre": "Romance",
+    "tags": ["favian gay", "romance azzam"],
+    "isFact": false
+  }
+]
