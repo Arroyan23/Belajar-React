@@ -8,11 +8,13 @@ import Blogs from "../pages/blogs";
 import SingleParams from "../pages/blogs/_id";
 // buat api loader dibawah element dari tiap routernya
 import { getApiWithId, getSingleApi } from "../api/api";
+import ErrorHandle from "../components/errorhandling";
 
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <RootLayout />,
+    errorElement: <ErrorHandle />,
     children: [
       {
         path: "/",

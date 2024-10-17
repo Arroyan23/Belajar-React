@@ -1,0 +1,5 @@
+/* ini untuk mengondisikan style di navnya */
+
+.active {
+  border-bottom: 2px solid white;
+}

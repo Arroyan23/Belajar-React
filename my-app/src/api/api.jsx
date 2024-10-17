@@ -7,5 +7,8 @@ export const getSingleApi = () => {
 // itu sendiri
 
 export const getApiWithId = ({ params }) => {
+  // bisa handle params nya sendiri
   return fetch(`https://jsonplaceholder.typicode.com/todos/${params.id}`);
 };
+
+// jangan lupa untuk return fetch nya itu sendiri
