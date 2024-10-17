@@ -6,7 +6,8 @@ function RootLayout() {
   return (
     <>
       {/* membuat navbarnya adalah di bagian atas */}
-      <Link to="/">Home</Link> | <Link to="/about">About</Link>
+      <Link to="/">Home</Link> | <Link to="/about">About</Link> |{" "}
+      <Link to="/blogs">Blogs</Link>
       <p />
       {/* ini untuk menampilkan element pada router nya */}
       <Outlet />
